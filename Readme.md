@@ -22,14 +22,16 @@ The project is still under active development — releases are not yet finalized
 - 📊 Security tools and phrase generator  
 
 ---
-📂 Project Structure
+## 📂 Project Structure
+graphql
+
 ├── Cargo.toml                 # Dependencies
 ├── README.md                  # Overview, setup, security notes
 ├── LICENSE                    # MIT license
 ├── .gitignore                 # Rust defaults
-├── releases/                  # Pre-built binaries + checksums (WIP)
+├── releases/                  # Pre-built binaries + checksums
 ├── docs/
-│   └── USAGE.md               # Non-technical usage guide
+│   └── USAGE.md               # Non-tech user guide
 ├── src/
 │   ├── main.rs                # CLI entry (clap)
 │   ├── lib.rs                 # Exports
@@ -42,7 +44,6 @@ The project is still under active development — releases are not yet finalized
 │   └── vault_tests.rs         # Vault unit tests
 └── scripts/
     └── build_releases.sh      # Binary build script
-
 ---
 
 ## 📚 Documentation
@@ -58,4 +59,5 @@ Currently, you can clone the repo to explore the source code:
 git clone https://github.com/cyber-excel10/DragonGuard/git
 cd dragonguard
 cargo build
+
 
