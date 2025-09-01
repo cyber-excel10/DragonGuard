@@ -3,8 +3,6 @@
 DragonGuard is a secure, Rust-based password manager with a focus on safety, simplicity, and privacy.  
 The project is still under active development — releases are not yet finalized.
 
----
-
 ## 🚧 Project Status
 ⚠️ This project is **in development**.  
 - Source code is available.  
@@ -19,11 +17,28 @@ The project is still under active development — releases are not yet finalized
 - 🖥️ Cross-platform builds (Linux, macOS, Windows)  
 - 🐉 TUI (Terminal User Interface)  
 - 📂 Encrypted vault system  
-- 📊 Security tools and phrase generator  
+- 📊 Security tools and phrase generator 
 
 ---
-## 📂 Project Structure
-graphql
+
+## 📚 Documentation
+For usage details and future examples, check the [docs/USAGE.md](docs/USAGE.md) file.  
+*(Please note: instructions may not yet reflect a fully working build.)*
+
+---
+
+
+## 🛠️ Installation and 📂 Project Structure
+Currently, you can clone the repo to explore the source code:
+
+```bash
+git clone https://github.com/cyber-excel10/DragonGuard/git
+cd dragonguard
+cargo build
+
+
+
+📂 Project Structure
 
 ├── Cargo.toml                 # Dependencies
 ├── README.md                  # Overview, setup, security notes
@@ -44,20 +59,4 @@ graphql
 │   └── vault_tests.rs         # Vault unit tests
 └── scripts/
     └── build_releases.sh      # Binary build script
----
-
-## 📚 Documentation
-For usage details and future examples, check the [docs/USAGE.md](docs/USAGE.md) file.  
-*(Please note: instructions may not yet reflect a fully working build.)*
-
----
-
-## 🛠️ Installation
-Currently, you can clone the repo to explore the source code:
-
-```bash
-git clone https://github.com/cyber-excel10/DragonGuard/git
-cd dragonguard
-cargo build
-
 
