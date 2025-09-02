@@ -32,7 +32,9 @@ For usage details and future examples, check the [docs/USAGE.md](docs/USAGE.md) 
 Currently, you can clone the repo to explore the source code:
 
 git clone https://github.com/cyber-excel10/DragonGuard/git
+
 cd dragonguard
+
 cargo build
 
 
@@ -58,5 +60,6 @@ cargo build
 │   └── vault_tests.rs         # Vault unit tests
 └── scripts/
     └── build_releases.sh      # Binary build script
+
 
 
