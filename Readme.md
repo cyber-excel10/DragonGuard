@@ -28,16 +28,15 @@ For usage details and future examples, check the [docs/USAGE.md](docs/USAGE.md) 
 ---
 
 
-## 🛠️ Installation and 📂 Project Structure
+## 🛠️ Installation
 Currently, you can clone the repo to explore the source code:
 
-```bash
 git clone https://github.com/cyber-excel10/DragonGuard/git
 cd dragonguard
 cargo build
 
 
-
+```bash
 📂 Project Structure
 
 ├── Cargo.toml                 # Dependencies
@@ -59,4 +58,5 @@ cargo build
 │   └── vault_tests.rs         # Vault unit tests
 └── scripts/
     └── build_releases.sh      # Binary build script
+
 
