@@ -8,7 +8,7 @@ The project is still under active development — releases are not yet finalized
 - Source code is available.  
 - Releases are being prepared but **not yet stable or fully functional**.  
 - Contributions, feedback, and suggestions are welcome!
-
+- 
 ---
 
 ## 📖 Features (Planned / In Progress)
@@ -26,7 +26,6 @@ For usage details and future examples, check the [docs/USAGE.md](docs/USAGE.md) 
 *(Please note: instructions may not yet reflect a fully working build.)*
 
 ---
-
 
 ## 🛠️ Installation
 Currently, you can clone the repo to explore the source code:
@@ -59,7 +58,3 @@ cargo build
 │   └── vault_tests.rs         # Vault unit tests
 └── scripts/
     └── build_releases.sh      # Binary build script
-
-
-
-
