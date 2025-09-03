@@ -37,9 +37,8 @@ cd dragonguard
 
 cargo build
 
-
+## 📂 Project Structure
 ```bash
-📂 Project Structure
 
 ├── Cargo.toml                 # Dependencies
 ├── README.md                  # Overview, setup, security notes
@@ -60,6 +59,7 @@ cargo build
 │   └── vault_tests.rs         # Vault unit tests
 └── scripts/
     └── build_releases.sh      # Binary build script
+
 
 
 
